@@ -1,0 +1,82 @@
+
+body{
+    font-family: "Righteous";
+    background-color: rgb(236, 211, 211);
+    margin: 0%;
+}
+nav{
+    text-align: center;
+    font-family: "Righteous";
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    margin: 0%;
+    position: sticky;
+    top: 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    color: green;
+}
+nav > img{
+    position: absolute;
+    left: 10%;
+    top: 10px;
+}
+main{
+    padding: 0% 10% 0% 10%;
+}
+h1,h2{
+    text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    color: green;
+}
+nav > a:hover{
+    color: #E72924;
+    font-weight: 900;
+    font-size: 19px;
+    animation-name: navHover;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-in;
+}
+
+header > h5{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+    background-color: lightgray;
+    border-top: 3px;
+    border-bottom: 3px;
+    border: solid black;
+}
+
+.title{
+    padding: 50px;
+}
+.navItem{
+    padding: 0px 15px 0px 15px;
+}
+
+/*ANIMATIONS*/
+
+/*Nav Animations*/
+@keyframes navHover {
+    from   {
+        color: green;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    to {
+        color: #E72924;
+        font-weight: 900;
+        font-size: 19px;
+    }
+  }

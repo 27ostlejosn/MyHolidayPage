@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w2.org/1999/html" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title> My Holiday Page </title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+
+            
+
+            <nav>
+                <!--<img src="images/logo.png" height="40px">-->
+                <a href="pages/holiday-recipes.html" class="navItem">Home</a>
+                
+                <a href="pages/holiday-recipes.html" class="navItem">Holiday Recipes</a>
+                
+                <a href="pages/holiday-recipes.html" class="navItem">Decorating Ideas</a>
+                
+                <a href="pages/holiday-recipes.html" class="navItem">Holiday Crafts</a>
+                
+                <a href="pages/holiday-recipes.html" class="navItem">Holiday Music Playlist</a>
+                
+            </nav>
+        </header>
+
+        <main>
+            <div class="title">
+                <h1>Welcome, To My Holiday Page!</h1>
+                <h2>Happy Holidays</h2>
+            </div>
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </main>
+
+
+        <!--Footer-->
+        <footer>
+            <h4>Made by Joseph Ostler</h4>
+            <h5>Copyright © 2024 All Rights Reserved</h5>
+        </footer>
+    </body>
+</html>
