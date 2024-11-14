@@ -1,18 +1,19 @@
 
 body{
     font-family: "Righteous";
-    background-color: rgb(236, 211, 211);
+    background-color: rgb(245, 235, 235);
     margin: 0%;
 }
 nav{
     text-align: center;
     font-family: "Righteous";
+    /*
+    background-image: url("../images/banner.jpg");
+    */
     background-color: white;
     padding: 20px;
     font-size: 18px;
     margin: 0%;
-    position: sticky;
-    top: 0;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     color: green;
@@ -22,8 +23,8 @@ nav > img{
     left: 10%;
     top: 10px;
 }
-main{
-    padding: 0% 10% 0% 10%;
+main > div{
+    padding: 0% 15% 0% 15%;
 }
 h1,h2{
     text-align: center;
@@ -41,6 +42,10 @@ nav > a:hover{
     animation-timing-function: ease-in;
 }
 
+nav{
+    position: sticky;
+    top: 0px;
+}
 header > h5{
     background-color: green;
     color: white;
@@ -63,6 +68,13 @@ footer{
 }
 .navItem{
     padding: 0px 15px 0px 15px;
+}
+
+div.item{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(99, 99, 99);
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 /*ANIMATIONS*/
