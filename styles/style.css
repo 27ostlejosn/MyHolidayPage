@@ -1,7 +1,7 @@
 
 body{
     font-family: "Righteous";
-    background-color: #F7DDD0;
+    background-color: #FFF3EB;
     margin: 0%;
 }
 nav{
@@ -17,6 +17,9 @@ nav{
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     color: green;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
 }
 nav > img{
     position: absolute;
@@ -25,6 +28,7 @@ nav > img{
 }
 main > div{
     padding: 0% 15% 0% 15%;
+    animation: pageFade 1s forwards;
 }
 h1,h2{
     text-align: center;
@@ -38,13 +42,8 @@ nav > a:hover{
     font-weight: 900;
     font-size: 19px;
     animation-name: navHover;
-    animation-duration: 0.1s;
+    animation-duration: 0.13s;
     animation-timing-function: ease-in;
-}
-
-nav{
-    position: sticky;
-    top: 0px;
 }
 header > h5{
     color: #953B01;
@@ -71,10 +70,12 @@ footer{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(99, 99, 99);
     padding: 10px;
+    z-index: 4;
 }
 
 .title{
     padding: 50px;
+    text-align: center;
 }
 .navItem{
     padding: 0px 15px 0px 15px;
@@ -108,5 +109,14 @@ iframe{
         color: #FF8300;
         font-weight: 900;
         font-size: 19px;
+    }
+  }
+
+  @keyframes pageFade {
+    from {
+        opacity: 0;
+    }
+    top {
+        opacity: 1;
     }
   }
