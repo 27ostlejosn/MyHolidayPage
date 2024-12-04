@@ -68,6 +68,14 @@ header > h5{
 .headerTitle > a{
     color: white;
 }
+
+span.vote {
+    transition: color 0.5s;
+    cursor: alias;
+}
+span.vote:hover {
+    color: red;
+}
 footer{
     text-align: center;
     background-color: white;
@@ -93,7 +101,7 @@ div.item{
     box-shadow: 0px 0px 10px rgb(99, 99, 99);
     border-radius: 18px;
     margin: 0px 0px 0px 0px;
-    padding: 20px;
+    padding: 10px;
     z-index: 3;
 }
 
@@ -102,8 +110,8 @@ div.item{
 }
 
 iframe{
-    height: 500px;
-    width: 450px;
+    height: 250px;
+    width: 460px;
     margin: 25px;
     border-radius: 10px;
     border: 5px solid #953B01;
