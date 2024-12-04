@@ -40,12 +40,12 @@ h1,h2{
 nav > a{
     text-decoration: none;
     color: #953B01;
+    transition: color 0.2s, font-size 0.2s, font-weight 0.2s;
 }
 nav > a:hover{
     color: #FF8300;
     font-weight: 900;
     font-size: 19px;
-    animation-name: navHover;
     animation-duration: 0.13s;
     animation-timing-function: ease-in;
 }
@@ -118,20 +118,6 @@ img.rope{
 }
 
 /*ANIMATIONS*/
-
-/*Nav Animations*/
-@keyframes navHover {
-    from   {
-        color: #953B01;
-        font-weight: 300;
-        font-size: 18px;
-    }
-    to {
-        color: #FF8300;
-        font-weight: 900;
-        font-size: 19px;
-    }
-  }
 
   @keyframes pageFade {
     from {
