@@ -140,9 +140,9 @@ img.rope{
   /*CUSTOM FONTS*/
 @font-face {
     font-family: "Acme";
-    src: url(fonts/Acme-Regular.tff);
+    src: url(../fonts/Acme-Regular.ttf);
 }
 @font-face {
     font-family: "Righteous";
-    src: url(fonts/Righteous-Regular.tff);
+    src: url(../fonts/Righteous-Regular.ttf);
 }
