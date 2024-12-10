@@ -1,6 +1,6 @@
 
 body{
-    font-family: "Righteous";
+    font-family: "Acme";
     background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/falling-autumn_4Y9AWZZSIB.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -36,6 +36,7 @@ main > div{
 }
 h1,h2{
     text-align: center;
+    font-family: "righteous";
 }
 nav > a{
     text-decoration: none;
@@ -135,3 +136,13 @@ img.rope{
         opacity: 1;
     }
   }
+
+  /*CUSTOM FONTS*/
+@font-face {
+    font-family: "Acme";
+    src: url(fonts/Acme-Regular.tff);
+}
+@font-face {
+    font-family: "Righteous";
+    src: url(fonts/Righteous-Regular.tff);
+}

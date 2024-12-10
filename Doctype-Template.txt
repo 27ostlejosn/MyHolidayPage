@@ -50,7 +50,7 @@
                 <center>
                     <div class="item" id="title">
                         <h1>Holiday Crafts</h1>
-                        <p>Make Something Fun!</p>
+                        <p>Listen In!</p>
                     </div>
                 
                     <img class="rope" src="../images/rope.png">
