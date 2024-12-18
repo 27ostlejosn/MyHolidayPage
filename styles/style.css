@@ -130,6 +130,21 @@ img.rope{
     height: 50px;
     margin-bottom: -4px;
 }
+img.highlight-image {
+    width: 400px;
+    border-radius: 20px;
+    border: solid orange 10px;
+}
+.img-copyright {
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 11px;
+}
+.copyright-link {
+    font-size: 10px;
+}
+
 
 /*ANIMATIONS*/
 
